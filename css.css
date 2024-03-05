@@ -1,0 +1,66 @@
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center; /* Alterado para space-between para empurrar os elementos para as extremidades */
+            align-items: center;
+        }
+        .textsmall{
+            width: 50%;
+            padding: 20px;
+            background-color: rgba(211, 208, 208, 0.7);
+        }
+        .imagessmall{
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            float: right;
+            justify-content: right;
+        }
+        .images img{
+            padding: 30px;
+        }
+        .imagessmall img {
+            padding: 0%;
+            margin: 30px;
+            border: 1px solid #FFFFFF;
+        }
+        .text {
+            margin-left: 30%;
+            margin-right: 0%;
+            width: 50%;
+            padding: 20px;
+            background-color: rgba(211, 208, 208, 0.7); /* Adiciona um fundo branco semi-transparente */
+        }
+        .images {
+            width: 40%;
+            padding: 20px;
+            background-color: rgba(255, 254, 254, 0.7); /* Adiciona um fundo branco semi-transparente */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            clear: both;
+        }
+        .social-icons a {
+              margin-right: 10px; /* Ajuste o espaçamento entre os ícones, se necessário */
+       }
